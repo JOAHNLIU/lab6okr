@@ -1,0 +1,73 @@
+/* Контекстний селектор */
+
+div p {
+    color: green;
+}
+
+/* Сусідній селектор */
+
+h1 + p {
+    font-size: 18px;
+}
+
+/* Дочірній селектор */
+
+div > p {
+    font-weight: bold;
+}
+
+/* Блочні елементи */
+
+div {
+    background-color: lightgrey;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Псевдокласи для посилань */
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+/* Псевдоклас :first-child */
+
+p:first-child {
+    color: orange;
+}
+
+/* Псевдоелементи: :before, :after */
+
+h2:before {
+    content: ">>> ";
+}
+
+h2:after {
+    content: " <<<";
+}
+
+/* Позиціонування */
+
+header {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+/* Плаваючі блоки */
+
+nav {
+    float: right;
+}
